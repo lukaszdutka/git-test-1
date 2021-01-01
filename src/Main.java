@@ -2,11 +2,11 @@ public class Main {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-            print(i);
+            printNumber(i);
         }
     }
 
-    private static void print(int number) {
+    private static void printNumber(int number) {
         System.out.println(number);
     }
 
